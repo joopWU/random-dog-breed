@@ -1,0 +1,82 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#breed-container {
+    margin: 0 auto;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+#breed-image {
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    
+}
+
+
+#breed-button {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+#pug-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+#breed-button:hover{
+    background-color: rgb(236, 231, 231);
+    
+}
+
+#pug-button:hover {
+    background-color: rgb(236, 231, 231);
+    
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.github-logo {
+    width: 50px;
+    height: 50px;
+    transition: 2s;
+}
+
+.github-logo:hover{
+    transform:  rotate(360deg);
+    
+}
